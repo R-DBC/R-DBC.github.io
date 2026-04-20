@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rémi Dubuc - Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="icon" type="image/png" href="Images/logo.png" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo">RD Portfolio</div>
+
+        <button
+          class="hamburger-menu"
+          aria-label="Toggle navigation"
+          aria-expanded="false"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <nav id="mobile-nav">
+          <ul>
+            <li><a href="#" class="active">Accueil</a></li>
+            <li><a href="Pages/a_propos.html">À propos</a></li>
+            <li><a href="Pages/formation.html">Formation</a></li>
+            <li><a href="Pages/experience.html">Expérience</a></li>
+            <li><a href="Pages/projets.html">Projets</a></li>
+            <li><a href="Pages/bilan.html">Bilan</a></li>
+            <li><a href="Pages/cv.html">CV</a></li>
+            <li><a href="Pages/contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-content">
+          <div class="text-content">
+            <h1>
+              Bonjour, je suis
+              <span class="highlight-name">Rémi Dubuc</span>
+            </h1>
+
+            <p class="subtitle">Étudiant en Informatique</p>
+
+            <p class="specialization">
+              Spécialisation: Réseaux & Cybersécurité
+            </p>
+
+            <p class="description">
+              Passionné par la sécurité informatique et les réseaux, je suis
+              actuellement étudiant en informatique avec une spécialisation en
+              cybersécurité. Mon objectif est de contribuer à la protection des
+              infrastructures numériques et de développer des solutions
+              innovantes pour sécuriser les systèmes d'information.
+            </p>
+
+            <div class="cta-buttons">
+              <a href="Pages/projets.html" class="btn primary">
+                Voir mes projets
+                <span class="arrow">→</span>
+              </a>
+              <a href="Pages/contact.html" class="btn secondary">
+                Me contacter
+              </a>
+            </div>
+          </div>
+
+          <div class="image-content">
+            <img
+              src="Images/img_profil_coupe.jpg"
+              alt="Photo de profil de Dubuc Rémi"
+              class="profile-photo"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="expertise-section">
+        <div class="container">
+          <h2>Domaines d'expertise</h2>
+          <div class="expertise-grid">
+            <div class="expertise-card">
+              <div class="icon-wrapper">
+                <i class="fas fa-shield-alt"></i>
+              </div>
+              <h3>Cybersécurité</h3>
+              <p>
+                Analyse de vulnérabilités, tests de pénétration, et mise en
+                place de solutions de sécurité pour protéger les
+                infrastructures.
+              </p>
+            </div>
+            <div class="expertise-card">
+              <div class="icon-wrapper">
+                <i class="fas fa-network-wired"></i>
+              </div>
+              <h3>Réseaux</h3>
+              <p>
+                Conception, déploiement et administration d'infrastructures
+                réseau sécurisées avec segmentation et monitoring.
+              </p>
+            </div>
+            <div class="expertise-card">
+              <div class="icon-wrapper">
+                <i class="fas fa-code"></i>
+              </div>
+              <h3>Télécommunications</h3>
+              <p>
+                Conception et optimisation des infrastructures de communication,
+                assurant la connectivité et la transmission fiable des données
+                sur divers réseaux.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-cta">
+        <div class="container">
+          <h2>Intéressé par mon profil ?</h2>
+          <p>
+            N'hésitez pas à me contacter pour discuter de vos projets ou
+            opportunités.
+          </p>
+          <a href="Pages/contact.html" class="btn primary">
+            Prendre contact
+            <span class="arrow">→</span>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-about">
+            <h3>À propos</h3>
+            <p>Dubuc Rémi - Étudiant en Informatique</p>
+            <p>Spécialisé en Réseaux & Cybersécurité</p>
+          </div>
+          <div class="footer-links">
+            <h3>Liens rapides</h3>
+            <ul>
+              <li><a href="#">Accueil</a></li>
+              <li><a href="Pages/projets.html">Projets</a></li>
+              <li><a href="Pages/cv.html">Mon CV</a></li>
+              <li><a href="Pages/contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-social">
+            <h3>Suivez-moi</h3>
+            <div class="social-icons">
+              <a
+                href="https://www.linkedin.com/in/remi-dubuc"
+                aria-label="LinkedIn"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+
+              <a href="Pages/contact.html" aria-label="Email"
+                ><i class="fas fa-envelope"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <p>&copy; 2026 Dubuc Rémi. Tous droits réservés.</p>
+        </div>
+      </div>
+    </footer>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const hamburgerBtn = document.querySelector(".hamburger-menu");
+        const navMenu = document.querySelector("#mobile-nav");
+
+        hamburgerBtn.addEventListener("click", function () {
+          // Basculer la classe 'is-open' sur la balise nav pour l'afficher/masquer
+          navMenu.classList.toggle("is-open");
+
+          // Mise à jour de l'attribut aria-expanded pour l'accessibilité
+          const isExpanded =
+            hamburgerBtn.getAttribute("aria-expanded") === "true" || false;
+          hamburgerBtn.setAttribute("aria-expanded", !isExpanded);
+        });
+      });
+    </script>
+  </body>
+</html>
