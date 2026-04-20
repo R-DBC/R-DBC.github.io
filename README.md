@@ -25,12 +25,12 @@ Bienvenue sur le dépôt de mon portfolio en ligne. Ce projet présente mon parc
 
 ## 🚀 Projets Phares
 
-### [SAÉ 512 - Géolocalisation Indoor (RTLS)](./pages/projet-sae512.html)
+### [SAÉ 512 - Géolocalisation Indoor (RTLS)](https://r-dbc.github.io/Pages/projet-sae512.html)
 Mise en œuvre d'un système de suivi haute précision (10-20cm) via technologie **Ultra Wideband (UWB)**.
 - **Stack :** Kit LEAPS, MQTT, Node-RED, SQLite, Raspberry Pi.
 - **Défi :** Migration d'une infrastructure virtuelle vers un environnement embarqué autonome.
 
-### [SAÉ 41 - Architecture Réseau & Services d'Entreprise](./pages/projet-sae41.html)
+### [SAÉ 41 - Architecture Réseau & Services d'Entreprise](https://r-dbc.github.io/Pages/projet-sae41.html)
 Conception et déploiement d'une infrastructure réseau complète intégrant redondance et services critiques.
 - **Stack :** Routage OSPF/RIP, VLANs, Spanning Tree (STP), Services (DNS, DHCP), GNS3/Cisco.
 - **Défi :** Assurer une haute disponibilité des services et une segmentation réseau sécurisée pour une entreprise multi-sites.
